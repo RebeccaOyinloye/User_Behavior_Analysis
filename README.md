@@ -28,5 +28,5 @@ In the initial Preparation phase i performed the following tasks:
 
 ### Exploratory Data Analysis
 ---
-Explored Sales Data to answer key questions and extract key insights:
+Explored User Behavior Data to answer key questions and extract key insights:
 
