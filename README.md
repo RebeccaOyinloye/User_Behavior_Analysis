@@ -46,8 +46,28 @@ Explored User Behavior Data to answer key questions and extract key insights:
 ---
 This include some of the code and features i worked with, such as:
 
-Excel
+1. Excel
 - pivot table
-- Utilized pivot tables to summarize user behavior data, analyzing user, behavior by device usage, operating system,and demographic 
+-  Utilized pivot tables to summarize user behavior data, analyzing user, behavior by device usage, operating system,and demographic 
 
-SQL
+2. SQL
+```SQL
+SELECT age,  gender, COUNT(*) As count FROM user_behavior_dataset
+GROUP BY  age, gender
+ORDER BY 
+  count DESC
+```
+```SQL
+SELECT operating_system, COUNT(*) AS OS_count FROM 
+  user_behavior_dataset
+GROUP BY  operating_system
+ORDER BY  OS_count DESC
+```
+```SQL
+SELECT 
+  device_model, COUNT(*) AS device_count FROM  user_behavior_dataset
+GROUP BY device_model
+ORDER BY 
+  device_count DESC
+```
+
