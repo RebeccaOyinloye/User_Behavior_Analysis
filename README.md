@@ -47,5 +47,7 @@ Explored User Behavior Data to answer key questions and extract key insights:
 This include some of the code and features i worked with, such as:
 
 Excel
-pivot table
+- pivot table
 - Utilized pivot tables to summarize user behavior data, analyzing user, behavior by device usage, operating system,and demographic 
+
+SQL
