@@ -50,7 +50,7 @@ This include some of the code and features i worked with, such as:
 - pivot table
 -  Utilized pivot tables to summarize user behavior data, analyzing user, behavior by device usage, operating system,and demographic 
 
-2. SQL
+2. Structured Query Language(SQL)
 ```SQL
 SELECT age,  gender, COUNT(*) As count FROM user_behavior_dataset
 GROUP BY  age, gender
@@ -70,4 +70,23 @@ GROUP BY device_model
 ORDER BY 
   device_count DESC
 ```
+
+3. Power BI
+- Conditional columns
+- Measures
+
+### Visualizations
+
+- Pivot Table Summarizations
+
+- Metrics with Excel formula
+
+- Structured Query Language(SQL) Summarizations
+
+User Behavior Dashboard
+
+
+### Result and Findings
+
+
 
