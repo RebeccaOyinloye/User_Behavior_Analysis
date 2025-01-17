@@ -42,5 +42,10 @@ Explored User Behavior Data to answer key questions and extract key insights:
 10. ⁠What is the number of user by device model 
 11. ⁠What is the number of user by operating system
 
+### Data Analysis 
 
+This include some of the code and features i worked with, such as:
+
+Excel
+pivot table
 
