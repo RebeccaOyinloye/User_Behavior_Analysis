@@ -207,3 +207,7 @@ User Behavior Dashboard
 ---
 Device manufacturers should optimize battery life for iPhone 12 and Xiaomi Mi 11 models and improve screen time management features. App developers should prioritize Android compatibility and optimize app battery usage. Operating system developers should enhance power management and develop user behavior-based features. Stakeholders should invest in user research and develop targeted marketing strategies based on user behavior classes.
 
+### Limitations 
+---
+There isn’t much limitation as the dataset had no null or blank values but the analysis only considers a limited set of variables, which may not capture the full complexity of user behavior.
+
