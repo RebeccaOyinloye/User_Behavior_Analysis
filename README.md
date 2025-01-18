@@ -193,11 +193,17 @@ User Behavior Dashboard
 
 ### Result and Findings
 
-The Total users are 700 and the average screen time is 5.2 hours
+- The analysis revealed that the total users are 700 and the average screen time is 5.2 hours
 - The most commonly used operating system is Android, with 554 users, iOS has 146 users.
 - The most commonly used device models are iPhone 12 and Xiaomi 11 with both having 146 users
 - The least used device model is Samsung Galaxy S21 with 133 users.
 - ⁠iPhone 12 device users have the highest average screen time and Xiaomi 11 device users have the highest average battery drain.
 
 - Age 21 has the highest average battery drain and an average screen time of 6.39 hours while age 48 has the highest average screen time of 6.87
-- User behavior class 5 has the highest average screen time and average battery drain.
+- User behavior class 5 has the highest average screen time, average battery drain and highest count for total data usage. while yser behavior class 1 has the least count for total data usage.
+- Male users account for the highest count of users by gender.
+
+### Recommendations 
+
+Device manufacturers should optimize battery life for iPhone 12 and Xiaomi Mi 11 models and improve screen time management features. App developers should prioritize Android compatibility and optimize app battery usage. Operating system developers should enhance power management and develop user behavior-based features.
+
