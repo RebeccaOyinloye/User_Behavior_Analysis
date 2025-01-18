@@ -70,6 +70,63 @@ GROUP BY device_model
 ORDER BY 
   device_count DESC
 ```
+```SQL
+SELECT AGE,
+AVG(SCREEN_ON_TIME_HOURS_DAY) AS AVG_SCREEN_ON_TIME, 
+AVG(BATTERY_DRAIN_MAH_DAY) AS AVG_BATTERY_DRAIN
+FROM [dbo].[user_behavior_dataset] 
+GROUP BY AGE 
+ORDER BY AGE ASC 
+```
+```SQL
+SELECT GENDER,
+AVG(SCREEN_ON_TIME_HOURS_DAY) AS AVG_SCREEN_ON_TIME, 
+AVG(BATTERY_DRAIN_MAH_DAY) AS AVG_BATTERY_DRAIN
+FROM [dbo].[user_behavior_dataset] 
+GROUP BY GENDER 
+ORDER BY GENDER ASC 
+```
+```SQL
+SELECT device_model,AVG (SCREEN_ON_TIME_HOURS_DAY) AS avg_screen_on_time, AVG(BATTERY_DRAIN_MAH_DAY) 
+FROM [dbo].[user_behavior_dataset] group by device_model order by device_model
+```
+```SQL
+ SELECT operating_system, AVG(screen_on_time_hours_day) AS avg_screen_on_time, 
+  AVG(battery_drain_mah_day) AS avg_battery_drain
+FROM [dbo].[user_behavior_dataset] GROUP BY 
+  operating_system
+ORDER BY 
+  operating_system ASC
+```
+```SQL
+ SELECT user_behavior_class, 
+  AVG(battery_drain_mah_day) AS avg_battery_drain, 
+  AVG(screen_on_time_hours_day) AS avg_screen_on_time
+FROM [dbo].[user_behavior_dataset]
+GROUP BY user_behavior_class
+ORDER BY user_behavior_class ASC;
+```
+```SQL
+ SELECT COUNT(DISTINCT user_id) AS total_users
+FROM [dbo].[user_behavior_dataset]
+```
+```SQL
+SELECT AVG(age) AS avg_age FROM [dbo].[user_behavior_dataset]
+```
+```SQL
+SELECT device_model, COUNT(DISTINCT user_id) AS user_count
+FROM [dbo].[user_behavior_dataset]
+GROUP BY 
+  device_model
+ORDER BY 
+  device_model ASC
+```
+```SQL
+ SELECT operating_system, COUNT(DISTINCT user_id) AS user_count
+FROM [dbo].[user_behavior_dataset]
+GROUP BY operating_system
+ORDER BY operating_system ASC
+```
 
 3. Power BI
 - Conditional columns
