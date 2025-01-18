@@ -143,6 +143,21 @@ ORDER BY operating_system ASC
 - Conditional columns
 - Measures
 
+```POWER BI
+Average Age of User = AVERAGE('user_behavior_dataset (2)'[Age])
+```
+
+```POWER BI
+Average Screen Time = AVERAGE('user_behavior_dataset (2)'[Screen On Time (hours/day)])
+```
+
+```POWER BI
+Total Data Usage = SUM('user_behavior_dataset (2)'[Data Usage (MB/day)])
+```
+
+```POWER BI
+Total Users = DISTINCTCOUNT('user_behavior_dataset (2)'[User ID])
+```
 ### Visualizations
 
 - Pivot Table Summarizations
