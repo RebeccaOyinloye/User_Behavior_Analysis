@@ -1,5 +1,29 @@
 # User_Behavior_Analysis
 
+# Table of Content 
+
+
+[Project Overview](#project-overview)
+
+[Data Source](#data-source)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Visualizations](#visualizations)
+
+[Result and Findings](#result-and-findings)
+
+[Recommendations](#recommendations)
+
+[Limitations](#limitations)
+
+
 ### Project Overview 
 ---
 This repository contains an analysis of a user behavior dataset, focusing on mobile device usage patterns. The analysis aims to identify trends and patterns in user behavior, develop insights to inform strategies for improving user experience and engagement.
