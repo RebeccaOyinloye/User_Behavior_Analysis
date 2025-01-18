@@ -50,6 +50,17 @@ This include some of the code and features i worked with, such as:
 - pivot table
 -  Utilized pivot tables to summarize user behavior data, analyzing user, behavior by device usage, operating system,and demographic 
 
+```EXCEL
+COUNT(A:A)
+```
+
+```EXCEL
+AVERAGE(E:E)
+```
+
+```EXCEL
+STDEV(E:E)
+```
 2. Structured Query Language(SQL)
 ```SQL
 SELECT age,  gender, COUNT(*) As count FROM user_behavior_dataset
