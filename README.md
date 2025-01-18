@@ -162,12 +162,34 @@ Total Users = DISTINCTCOUNT('user_behavior_dataset (2)'[User ID])
 
 - Pivot Table Summarizations
 
+![JAN17,1](https://github.com/user-attachments/assets/f19ba005-26d3-4051-ad96-58e0f19c4230)
+
+![JAN17,2](https://github.com/user-attachments/assets/1295e00f-9f31-433b-ba31-f6ec07448bb3)
+
 - Metrics with Excel formula
 
+![JAN17,3](https://github.com/user-attachments/assets/c145bb46-27d2-4913-9574-7060653cfe56)
+
 - Structured Query Language(SQL) Summarizations
+![JAN17,4](https://github.com/user-attachments/assets/c8d54279-93d2-418e-a720-fad1789917e6)
+
+![JAN17,5](https://github.com/user-attachments/assets/06506c21-836c-4e47-985a-a6f53a0f5ac7)
+
+![JAN17,6](https://github.com/user-attachments/assets/b59444ac-c357-4b1f-aa07-bf7d21d3f8d3)
+
+![JAN17,7](https://github.com/user-attachments/assets/8eb144d5-d797-43bb-9fa3-51e95893a9ef)
 
 User Behavior Dashboard
 
+![jan2,9](https://github.com/user-attachments/assets/326e9c47-1065-4ce2-a357-1a39f39f671b)
+
+![jan2,8](https://github.com/user-attachments/assets/a6a84e66-944f-4e26-9ce0-f01d4041d9d6)
+
+![jan2,7](https://github.com/user-attachments/assets/e4073616-8cb8-4b91-bb16-fb7673f0c1f0)
+
+![jan2,6](https://github.com/user-attachments/assets/214ea2e6-1c40-4dc7-9528-1448406f5879)
+
+![jan2,3](https://github.com/user-attachments/assets/4b08be63-4614-4c96-b572-c185f16e9acf)
 
 ### Result and Findings
 
