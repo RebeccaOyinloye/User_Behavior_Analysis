@@ -159,7 +159,7 @@ Total Data Usage = SUM('user_behavior_dataset (2)'[Data Usage (MB/day)])
 Total Users = DISTINCTCOUNT('user_behavior_dataset (2)'[User ID])
 ```
 ### Visualizations
-
+---
 - Pivot Table Summarizations
 
 ![JAN17,1](https://github.com/user-attachments/assets/f19ba005-26d3-4051-ad96-58e0f19c4230)
@@ -192,7 +192,7 @@ User Behavior Dashboard
 ![jan2,3](https://github.com/user-attachments/assets/4b08be63-4614-4c96-b572-c185f16e9acf)
 
 ### Result and Findings
-
+---
 - The analysis revealed that the total users are 700 and the average screen time is 5.2 hours
 - The most commonly used operating system is Android, with 554 users, iOS has 146 users.
 - The most commonly used device models are iPhone 12 and Xiaomi 11 with both having 146 users
@@ -204,6 +204,6 @@ User Behavior Dashboard
 - Male users account for the highest count of users by gender.
 
 ### Recommendations 
-
-Device manufacturers should optimize battery life for iPhone 12 and Xiaomi Mi 11 models and improve screen time management features. App developers should prioritize Android compatibility and optimize app battery usage. Operating system developers should enhance power management and develop user behavior-based features.
+---
+Device manufacturers should optimize battery life for iPhone 12 and Xiaomi Mi 11 models and improve screen time management features. App developers should prioritize Android compatibility and optimize app battery usage. Operating system developers should enhance power management and develop user behavior-based features. Stakeholders should invest in user research and develop targeted marketing strategies based on user behavior classes.
 
